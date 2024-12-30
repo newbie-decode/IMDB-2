@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://komalK:komal%40123@atlascluster.fukzabb.mongodb.net/moviesDB');
+mongoose.connect('mongodb://locmongodb+srv://kulcodes:kul1212@cluster0.jqdxs.mongodb.net/alhost:27017');
 
 // Define Movie Schema and Model
 const movieSchema = new mongoose.Schema({
